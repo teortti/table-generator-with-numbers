@@ -33,9 +33,7 @@ function fillTable(table) {
 
 table = document.getElementById('table');
 document.querySelector("#submit").onclick = function(){
-    fillTable(table);
-  }
-
+    fillTable(table);}
 //console.log(table.rows.length);
 
 
